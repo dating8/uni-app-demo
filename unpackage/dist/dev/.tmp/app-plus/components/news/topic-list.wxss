@@ -1,0 +1,19 @@
+
+.topic-list.data-v-d378eb62{
+	padding: 20rpx 0;
+	border-bottom: 1rpx solid #EEEEEE;
+}
+.topic-list>view>view.data-v-d378eb62{
+	color: #a4a4a4;
+}
+.topic-list>view>view.data-v-d378eb62:first-child{
+	color: #333;
+	font-size: 32rpx;
+}
+.topic-list image.data-v-d378eb62{
+	width: 150rpx;
+	height: 150rpx;
+	border-radius: 10rpx;
+	margin-right: 20rpx;
+}
+

@@ -1,0 +1,30 @@
+{
+  "enablePullDownRefresh": true,
+  "scrollIndicator": "none",
+  "bounce": "none",
+  "titleNView": {
+    "autoBackButton": false,
+    "buttons": [
+      {
+        "color": "#000000",
+        "colorPressed": "#bbbbbb",
+        "float": "right",
+        "fontSize": "16px",
+        "text": "取消"
+      }
+    ],
+    "searchInput": {
+      "align": "left",
+      "backgroundColor": "#f7f7f7",
+      "borderRadius": "4px",
+      "placeholder": "搜索糗事",
+      "placeholderColor": "#ccc",
+      "disabled": false
+    }
+  },
+  "usingComponents": {
+    "index-list": "/components/index/index-list",
+    "no-thing": "/components/common/no-thing",
+    "load-more": "/components/common/load-more"
+  }
+}

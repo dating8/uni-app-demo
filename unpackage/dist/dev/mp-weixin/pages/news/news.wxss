@@ -1,0 +1,38 @@
+
+.nav-right>view,.nav-left>view{
+	font-size: 40rpx;
+}
+.nav-left{
+	margin-left: 16rpx;
+}
+.nav-right{
+	width: 100%;
+}
+.nav-right>view{
+	color: #ff9619;
+}
+.nav-tab-bar{
+	width: 100%;
+	margin-left: 22rpx;
+}
+.nav-tab-bar>view{
+	font-size: 35rpx;
+	padding: 0 15rpx;
+	font-weight: bold;
+	color: #969696;
+	position: relative;
+}
+.active{
+	color: #333;
+}
+.nav-tab-bar-line{
+	border-bottom: 5rpx solid #ffde33;
+	border-top: 5rpx solid #ffde33;
+	width: 70rpx;
+	border-radius: 20rpx;
+	position: absolute;
+	bottom: 12rpx;
+}
+
+
+

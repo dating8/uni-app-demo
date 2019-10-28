@@ -1,0 +1,46 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/news/news",
+    "pages/paper/paper",
+    "pages/home/home"
+  ],
+  "subPackages": [],
+  "window": {
+    "defaultTitle": "uni-app",
+    "titleBarColor": "#F8F8F8",
+    "backgroundColor": "#F8F8F8"
+  },
+  "tabBar": {
+    "textColor": "#adadad",
+    "selectedColor": "#fee42a",
+    "backgroundColor": "#ffffff",
+    "items": [
+      {
+        "pagePath": "pages/index/index",
+        "name": "糗事",
+        "icon": "static/tabbar/index.png",
+        "activeIcon": "static/tabbar/indexed.png"
+      },
+      {
+        "pagePath": "pages/news/news",
+        "name": "动态",
+        "icon": "static/tabbar/news.png",
+        "activeIcon": "static/tabbar/newsed"
+      },
+      {
+        "pagePath": "pages/paper/paper",
+        "name": "小纸条",
+        "icon": "static/tabbar/paper.png",
+        "activeIcon": "static/tabbar/papered.png"
+      },
+      {
+        "pagePath": "pages/home/home",
+        "name": "我的",
+        "icon": "static/tabbar/home.png",
+        "activeIcon": "static/tabbar/homeed"
+      }
+    ]
+  },
+  "usingComponents": {}
+}
